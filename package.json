@@ -1,0 +1,37 @@
+{
+  "name": "yacht-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev --port 3000",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.5",
+    "@astrojs/tailwind": "^5.1.0",
+    "@elysiajs/swagger": "^0.8.5",
+    "@t3-oss/env-core": "^0.9.2",
+    "@types/sshpk": "^1.17.4",
+    "astro": "4.4.4",
+    "astro-bun-adapter": "^1.0.2",
+    "consola": "^3.2.3",
+    "date-fns": "^3.3.1",
+    "dockerode": "^4.0.2",
+    "elysia": "^0.8.17",
+    "js-yaml": "^4.1.0",
+    "lucia": "^3.0.1",
+    "oslo": "^1.1.2",
+    "sshpk": "^1.18.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "unstorage": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.6",
+    "@types/dockerode": "^3.3.24",
+    "@types/js-yaml": "^4.0.9"
+  }
+}
